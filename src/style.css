@@ -1,0 +1,83 @@
+:root {
+  --primary-color: #272044;
+  --secondary-color: #885df1;
+  --page-font: Georgia, "Times New Roman", Times, serif;
+  --gradient:: radial-gradient(circle at 10% 20%, rgb(242, 235, 243) 0%, rgb(234, 241, 249) 90.1%);
+
+}
+
+h1{
+    color: var(--primary-color);
+    font-size:80px;
+    margin: 0;
+    font-weight: bold;
+}
+
+h2,.contact-mail{
+    font-size:50px;
+    margin: 0;
+}
+h3{
+    font-size:35px;
+    opacity: 0.65;
+    margin: 0;
+}
+
+.paragraphs{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+.paragraph-1, .paragraph-2{
+    background: #f5f2fe;
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 10px;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.wrapper {
+  margin: 60px auto;
+  max-width: 800px;
+  text-align: center;
+  font-weight: var(--page-font);
+  background: var(--gradient);
+}
+.wrapper-2{
+    text-align: center;
+    max-width: 100%;
+}
+.contacts{
+    display: flex;
+    justify-content:center;
+}
+.link-1, .link-2, .weather-link, .yoga-link, .yogurt-link {
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.link-1, .weather-link, .yoga-link, .yogurt-link{
+    color: white;
+    background: var(--secondary-color);
+    border:1px solid white;
+    padding: 20 auto;
+    margin: 15px 20px;
+}
+.link-2{
+    color: var(--primary-color);
+    background: white;
+    border:1px solid var(--primary-color);
+    padding: 20 auto;
+    margin: 15px 20px;
+    font-size: 20px;
+}
+.homepage-link, .mail-link{
+    text-decoration: none;
+    font-size: 35px;
+}
+
